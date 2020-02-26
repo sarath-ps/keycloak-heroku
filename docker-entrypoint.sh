@@ -184,6 +184,7 @@ fi
 /opt/jboss/tools/jgroups.sh $JGROUPS_DISCOVERY_PROTOCOL $JGROUPS_DISCOVERY_PROPERTIES
 /opt/jboss/tools/autorun.sh
 
+export JAVA_OPTS="-Xmx448m"
 ##################
 # Start Keycloak #
 ##################
